@@ -24,10 +24,27 @@ $ npm install --save keyfac
 ```
 
 ## Usage
-TODO
+
+```javascript
+const { key, keygen } = requure('keyfac')
+
+// Simple key
+const userCountKey = key('user_count')
+console.log(userCountKey) // => key_for_user_count
+
+// Key with User ID
+const userNameKey = keygen('user_name')
+console.log(userNameKey(1)) // => gen_key_for_user_name_1
+```
+
+See also [test.js](test.js).
 
 ## References
-TODO
+### `key(... items)`
+Create simple key.
+
+### `keygen(... items)`
+Create key generator function with base arguments.
 
 ## License
 MIT &copy; Pine Mizune
