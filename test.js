@@ -6,8 +6,10 @@ const keyfac = require('./')
 test('key', t => {
   t.is(keyfac.key('foo'), 'key_for_foo')
   t.is(keyfac.key('foo', 'bar'), 'key_for_foo_bar')
+  t.is(keyfac.key(['foo', 'bar']), 'key_for_foo_bar')
   t.is(keyfac.key('foo', 'bar', 1, 2), 'key_for_foo_bar_1_2')
   t.is(keyfac.key('foo', 'bar', null, 2), 'key_for_foo_bar_2')
+  t.is(keyfac.key(['foo', 'bar', null], 2), 'key_for_foo_bar_2')
 })
 
 test('key (fail)', t => {
