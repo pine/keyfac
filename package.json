@@ -1,0 +1,15 @@
+{
+  "name": "keyfac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0"
+  },
+  "license": "MIT"
+}
