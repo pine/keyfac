@@ -1,7 +1,12 @@
 {
   "name": "keyfac",
   "version": "1.0.0",
+  "description": "Declare cache key generator",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "*.md"
+  ],
   "scripts": {
     "test": "ava -v"
   },
@@ -11,5 +16,21 @@
   "devDependencies": {
     "ava": "^0.22.0"
   },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "author": {
+    "name": "Pine Mizune",
+    "email": "pinemz@gmail.com",
+    "url": "https://github.com/pine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pine/keyfac"
+  },
+  "bugs": {
+    "url": "https://github.com/pine/keyfac/issues"
+  },
+  "homepage": "https://github.com/pine/keyfac",
   "license": "MIT"
 }
