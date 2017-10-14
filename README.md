@@ -11,6 +11,10 @@ keyfac
 
 :key: Declare cache key generator inspired by [Cache::Keys::DSL](https://github.com/karupanerura/Cache-Keys-DSL).
 
+## Requirements
+
+- Node v4 or later
+
 ## Getting started
 
 ```
