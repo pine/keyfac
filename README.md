@@ -12,7 +12,16 @@ keyfac
 :key: Declare cache key generator inspired by [Cache::Keys::DSL](https://github.com/karupanerura/Cache-Keys-DSL).
 
 ## Getting started
-TODO
+
+```
+$ yarn add keyfac
+```
+
+or
+
+```
+$ npm install --save keyfac
+```
 
 ## Usage
 TODO
