@@ -7,7 +7,7 @@ keyfac
 [![Build Status](https://travis-ci.org/pine/keyfac.svg?branch=master)](https://travis-ci.org/pine/keyfac)
 [![Build status](https://ci.appveyor.com/api/projects/status/d8r804nxa3chewt8/branch/master?svg=true)](https://ci.appveyor.com/project/pine/keyfac/branch/master)
 [![Dependency Status](https://img.shields.io/david/pine/keyfac.svg)](https://david-dm.org/pine/keyfac)
-[![devDependency Status](https://img.shields.io/david/dev/pine/keyfac.svg)](https://david-dm.org/pine/keyfac#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/pine/keyfac.svg)](https://david-dm.org/pine/keyfac#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/pine/keyfac.svg)](https://greenkeeper.io/)
 
 :key: Declare cache key generator inspired by [Cache::Keys::DSL](https://github.com/karupanerura/Cache-Keys-DSL).
 
